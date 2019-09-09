@@ -27,4 +27,6 @@
 
 # Start the server
 
+\$env:myprivatekey = "myprivatekey"
+
 `node index.js`
