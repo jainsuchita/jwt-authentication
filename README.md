@@ -12,8 +12,11 @@
 ## The flow of information is as follows:
 
 > Client sends credentials to the server
+
 > Server verifies the credentials, generates a JWT and sends it back as a response
+
 > Subsequent requests from the client have a JWT in the request headers
+
 > Server validates the token and if valid, provide the requested response.
 
 ## Instructions
